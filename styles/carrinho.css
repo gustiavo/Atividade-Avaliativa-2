@@ -44,3 +44,25 @@ input:focus{
     color: #f76642;
     font-weight: bold;
 }
+
+#removerTodosProdutos{
+    border: 1px solid #c52f2f;
+    border-radius: 5px;
+    color: #c52f2f;
+    font-size: 10pt;
+}
+
+span, h4 > span{
+    color: gray;
+    font: 12pt !important;
+}
+#cupom{
+    background-color: var(--cor-fundo);
+}
+#btnCupom{
+    background-color: #c52f2f;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}

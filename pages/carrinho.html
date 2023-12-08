@@ -84,26 +84,51 @@
                               <h3 class="my-2">Selecione o endereço</h3>
                         </div>
                         <div id="inputCep" class="d-flex align-items-center gap-3">
-                            <input  class="my-2" name="cep" id="cep" placeholder="Insira seu endereço">
+                            <input  class="my-2 px-2" name="cep" id="cep" placeholder="Insira seu endereço">
                             <button type="button" name="btnCep" id="btnCep">OK</button>
                             <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank" id="esqueciCEP" >Não lembro meu CEP</a>
                         
                         </div>
                     </div>
                 </section>
-                <section id="produtos" class="container bg-light">
-                    <div id="boxCarrinho" class="d-flex align-items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f76c49" class="bi bi-bag-fill" viewBox="0 0 16 16">
-                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
-                          </svg>
-                          <h4 class="my-2">Produtos</h4>
+                <section id="produtos" class="container bg-light my-5 py-2 px-4">
+                    <div id="boxCarrinho" class="d-flex justify-content-between my-5 ">
+                        <div id="tituloProdutos" class="d-flex align-items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f76c49" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
+                              </svg>
+                              <h3 class="my-2">Produtos</h3>
+                        </div>
+                          <div id="removerProduto">
+                            <button type="button" id="removerTodosProdutos" class="d-flex align-items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#c52f2f" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
+                                  </svg>
+                                  <p class="my-2">REMOVER TODOS OS PRODUTOS</p>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                        <img src="../images/games/COD-MW3-PS5.jpg" class="card-img-top " style="border-radius: 0;" alt="Call of Duty Modern Warfare 3">
+                        <div class="card-body">
+                          <h4 class="card-title" style="color:var(--cor-nav)">Call of Duty Modern Warfare 3 - PS5</h4>
+                          <span>Com desconto no pix:
+                              <h4 class="card-title" style="color: var(--cor-hover)"> R$307,91</h4>
+                          </span>
+                          <span>Parcelado no cartão 10x sem juros:<h4 class="card-text"> R$399,99</h4></span>
+                          
+                    
+                        </div>
+                      </div>
+                </section>
+                <section id="cupom" class="container p-3">
+                    <div id="boxCupom" class="container d-flex gap-2 ">
+                        <input type="text" name="checkCupom" placeholder="Cupom de desconto" class="px-3" style="width: 50rem;">
+                        <button type="button" style="width: 30rem;" id="btnCupom">APLICAR CUPOM</button>
                     </div>
                 </section>
 
-                <section id="produtos">
-                        
-
-                </section>
+            
 
             </main>
 
