@@ -1,5 +1,9 @@
+main{
+    background-color: #f0f0f0;
+}
+
 #carrinho h5{
-    color: #dd6041 !important;
+    color: #f76c49 !important;
 }
 section h5{
     color: #8080805d !important;
@@ -12,13 +16,31 @@ section h5{
 }
 
 #selectCep{
-    width: 60rem;
+    width: 100rem;
+    margin-left: 10rem;
 }
 input{
+    width: 12rem;
+    height: 2.5rem;
     border-radius: 5px;
     border: 1px solid #8080805d;
 }
 input:focus{
     outline: none;
-    border: 2px solid #dd6041;
+    border: 2px solid #f76642;
+}
+
+#btnCep{
+    width: 4rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f76642;
+    color: var(--cor-fundo);
+    font-weight: bold;
+}
+
+#esqueciCEP{
+    color: #f76642;
+    font-weight: bold;
 }
