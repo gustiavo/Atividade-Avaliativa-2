@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="page">
+    <div class="page" style="background-color: #f0f0f0;">
         <header>
             <div class="logo">
                 <img src="../images/icon/logo png.png" alt="">
@@ -27,107 +27,122 @@
                 </ul>
             </nav>
         </header>
-            <main>
-                <section id="processoPagamento" class="d-flex justify-content-center gap-3">
-                    <div id="carrinho" class="d-flex gap-3 align-items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#dd6041" class="bi bi-cart-fill" viewBox="0 0 16 16">
-                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-                          </svg>
-                          <h5 class="my-2">Carrinho</h5>
-                    </div>
-                    <div id="linha" >
-                        <hr style="background-color: black">
-                    </div>
-                    <div id="identificacao" class="d-flex gap-3 align-items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8080805d" class="bi bi-person-fill" viewBox="0 0 16 16">
-                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                          </svg>
-                          <h5 class="my-1">Identificação</h5>
-
-                    </div>
-                    <div id="linha" >
-                        <hr style="background-color: black">
-                    </div>
-                    <div id="pagamento" class="d-flex gap-3 align-items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8080805d" class="bi bi-credit-card" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
-                            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-                          </svg>
-                          <h5 class="my-2">Pagamento</h5>
-                    </div>
-                    <div id="linha" >
-                        <hr style="background-color: black">
-                    </div>
-                    <div id="confirmacao" class="d-flex gap-3 align-items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8080805d" class="bi bi-eye-fill" viewBox="0 0 16 16">
-                            <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
-                            <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
-                          </svg>
-                          <h5 class="my-2">Confirmação</h5>
-                    </div>
-                    <div id="linha" >
-                        <hr style="background-color: black">
-                    </div>
-                    <div id="concluir" class="d-flex gap-3 align-items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8080805d" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
-                          </svg>
-                          <h5 class="my-2">Concluir</h5>
-                    </div>
-                </section>
-                <section id="selectCep" class="my-4">
-                    <div class="container">
-                        <div id="endereco" class="d-flex align-items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f76c49" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                              </svg>
-                              <h3 class="my-2">Selecione o endereço</h3>
-                        </div>
-                        <div id="inputCep" class="d-flex align-items-center gap-3">
-                            <input  class="my-2 px-2" name="cep" id="cep" placeholder="Insira seu endereço">
-                            <button type="button" name="btnCep" id="btnCep">OK</button>
-                            <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank" id="esqueciCEP" >Não lembro meu CEP</a>
-                        
-                        </div>
-                    </div>
-                </section>
-                <section id="produtos" class="container bg-light my-5 py-2 px-4">
-                    <div id="boxCarrinho" class="d-flex justify-content-between my-5 ">
-                        <div id="tituloProdutos" class="d-flex align-items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f76c49" class="bi bi-bag-fill" viewBox="0 0 16 16">
-                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
-                              </svg>
-                              <h3 class="my-2">Produtos</h3>
-                        </div>
-                          <div id="removerProduto">
-                            <button type="button" id="removerTodosProdutos" class="d-flex align-items-center gap-1">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#c52f2f" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
-                                  </svg>
-                                  <p class="my-2">REMOVER TODOS OS PRODUTOS</p>
-                            </button>
-                          </div>
-                    </div>
-                    <div class="card p-1" style="width: 20rem; border-radius: 0;">
-                        <img src="../images/games/COD-MW3-PS5.jpg" class="card-img-top " style="border-radius: 0;" alt="Call of Duty Modern Warfare 3">
-                        <div class="card-body">
-                          <h4 class="card-title" style="color:var(--cor-nav)">Call of Duty Modern Warfare 3 - PS5</h4>
-                          <span>Com desconto no pix:
-                              <h4 class="card-title" style="color: var(--cor-hover)"> R$307,91</h4>
-                          </span>
-                          <span>Parcelado no cartão 10x sem juros:<h4 class="card-text"> R$399,99</h4></span>
-                          
+            <main class="container-fluid">
+                <section id="processoPagamento" class="d-flex  justify-content-center gap-3">
                     
+                        <div id="carrinho" class="d-flex gap-3 align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#dd6041" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                              </svg>
+                              <h5 class="my-2">Carrinho</h5>
                         </div>
-                      </div>
+                        <div id="linha" >
+                            <hr style="background-color: black">
+                        </div>
+                        <div id="identificacao" class="d-flex gap-3 align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8080805d" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                              </svg>
+                              <h5 class="my-1">Identificação</h5>
+                        </div>
+                        <div id="linha" >
+                            <hr style="background-color: black">
+                        </div>
+                        <div id="pagamento" class="d-flex gap-3 align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8080805d" class="bi bi-credit-card" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                              </svg>
+                              <h5 class="my-2">Pagamento</h5>
+                        </div>
+                        <div id="linha" >
+                            <hr style="background-color: black">
+                        </div>
+                        <div id="confirmacao" class="d-flex gap-3 align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8080805d" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                              </svg>
+                              <h5 class="my-2">Confirmação</h5>
+                        </div>
+                        <div id="linha" >
+                            <hr style="background-color: black">
+                        </div>
+                        <div id="concluir" class="d-flex gap-3 align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8080805d" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                              </svg>
+                              <h5 class="my-2">Concluir</h5>
+                        </div>
+                        </section>
+                        <section id="selectCep" class="container d-flex my-5 p-4 bg-light">
+                         <div class="container boxCarrinho ">
+                        
+                            <div id="endereco" class="d-flex align-items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f76c49" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                  </svg>
+                                  <h2 class="my-2">Selecione o endereço</h2>
+                            </div>
+                            <div id="inputCep" class="d-flex align-items-center gap-3">
+                                <input  class="my-2 px-2" name="cep" id="cep" placeholder="Insira seu endereço">
+                                <button type="button" name="btnCep" id="btnCep">OK</button>
+                                <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank" id="esqueciCEP" >Não lembro meu CEP</a>
+                        
+                            </div>
+                            <div class="linha my-5">
+                            </div>
+                            <div id="boxCarrinho" class="d-flex container-fluid justify-content-between my-5 ">
+                                <div id="tituloProdutos" class="d-flex align-items-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f76c49" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
+                                      </svg>
+                                      <h3 class="my-2">Produtos</h3>
+                                </div>
+                                  <div id="removerProduto" class="my-4">
+                                    <button type="button" id="removerTodosProdutos" class="d-flex align-items-center gap-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#c52f2f" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                            <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
+                                          </svg>
+                                          <p class="my-2">REMOVER TODOS OS PRODUTOS</p>
+                                    </button>
+                                 
+                                  </div>
+                            </div>
+                            <div id="midCarrinho" class="d-flex justify-content-between">
+                                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                                    <img src="../images/games/COD-MW3-PS5.jpg" class="card-img-top " style="border-radius: 0;" alt="Call of Duty Modern Warfare 3">
+                                    <div class="card-body">
+                                      <h4 class="card-title" style="color:var(--cor-nav)">Call of Duty Modern Warfare 3 - PS5</h4>
+                                      <span>Com desconto no pix:
+                                          <h4 class="card-title" style="color: var(--cor-hover)"> R$307,91</h4>
+                                      </span>
+                                      <span>Parcelado no cartão 10x sem juros:<h4 class="card-text"> R$399,99</h4></span>
+                                    </div>
+                                
+                                    </div>
+                                    <div id="resumo" >
+                                        <div id="boxResumo" class="my-2">
+                                            <h4>Resumo</h4>
+                                            <span>Valor dos produtos: <p>R$399,99</p></span>
+                                            <hr>
+                                            <span>Frete <p>R$0,00</p></span>
+                                            <span>Total à prazo <p>R$399,99</p></span>
+                                            <span>(em ate<p>10x</p> de <p>R$39,99 sem juros</p>)</span>
+                                        </div>
+                                  </div>
+                            </div>
+                              <div class="linha my-5">
+                              </div>
+                              <div id="boxCupom" class="container d-flex gap-2 my-5 ">
+                                <input type="text" name="checkCupom" placeholder="Cupom de desconto" class="px-3" style="width: 50rem;">
+                                <button type="button" style="width: 30rem;" id="btnCupom">APLICAR CUPOM</button>
+                            </div>
+                        </div>
+                   
+                  
                 </section>
-                <section id="cupom" class="container p-3">
-                    <div id="boxCupom" class="container d-flex gap-2 ">
-                        <input type="text" name="checkCupom" placeholder="Cupom de desconto" class="px-3" style="width: 50rem;">
-                        <button type="button" style="width: 30rem;" id="btnCupom">APLICAR CUPOM</button>
-                    </div>
-                </section>
-
+              
             
 
             </main>
