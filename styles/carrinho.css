@@ -1,0 +1,24 @@
+#carrinho h5{
+    color: #dd6041 !important;
+}
+section h5{
+    color: #8080805d !important;
+    font-size: 12pt;
+}
+#linha{
+    
+    width: 3rem;
+    height: 0.2rem;
+}
+
+#selectCep{
+    width: 60rem;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid #8080805d;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #dd6041;
+}

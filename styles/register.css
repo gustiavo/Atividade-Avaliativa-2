@@ -1,0 +1,69 @@
+
+:root{
+    --cor-fundo-azul:#000000a8;
+    --cor-branco:#e2e2e2;
+    --cor-link:#ff5151;
+    --background-color:#ffffff;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+}
+.container{
+    margin: auto;
+    width:50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    
+  
+    
+}
+form{
+    width: 90% !important;
+    height: 100% !important;
+    background-color: var(--cor-fundo-azul) !important;
+    padding: 5px !important;
+    box-shadow: 10px 10px 10px #f8515160 !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
+    
+    
+
+}
+
+form div{
+    margin: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+form div label{
+    margin-bottom: 5px !important;
+}
+form div input{
+    width: 210px !important;
+    height: 25px !important;
+    border-radius: 5px !important;
+}
+form div input:focus{
+    outline: #f1084e !important;
+    border: 2px solid #f1084e !important;
+}
+form a{
+    color: white !important;
+    transition: color 300ms !important;
+}
+form a:hover{
+    color: var(--cor-link) !important;
+    text-decoration: underline !important;
+}

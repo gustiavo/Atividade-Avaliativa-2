@@ -1,0 +1,87 @@
+
+body{
+    background-color: #000000 !important;
+}
+main{
+    width: 100%;
+   height: 100%;
+   background-color: #000000 !important;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ff0909;
+    padding: 100px;
+    margin: 0 auto;
+}
+main img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-caption h5{
+    font-size: 30pt;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #ffffff ;
+    
+}
+.carousel-caption a{
+    font-size: 15pt;
+    color: var(--cor-hover);
+    background-color: rgba(221, 221, 221, 0.897);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+
+.titulo h1,h3{
+    color: var(--cor-titulo);
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-size: 50pt;
+    
+}
+
+.card img{
+    height: 21rem !important;
+}
+.card-text{
+    color: gray;
+    text-decoration: line-through !important;
+}
+
+
+#notfySection{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+label{
+    color: var(--cor-hover);
+}
+input:focus{
+    border: 2px solid var(--cor-hover) !important;
+  box-shadow: 0 0 8px rgba(3, 3, 3, 0.5) !important;
+}
+
+.detalhe{
+    gap: 0.2rem;
+}
+
+.btn-primary{
+    background-color: var(--cor-hover) !important;
+    border: none !important;
+    
+}
+#btnEnviar{
+    width: 5.5rem;
+}
+#checkbox:checked{
+    background-color: var(--cor-hover) !important;
+    border: 1px solid var(--cor-hover) !important; 
+}
+
+.modal-footer{
+    background-color: #ffffff !important;
+}

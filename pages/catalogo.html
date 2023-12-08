@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geração G - Catálogo</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/catalogo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../images/icon/logo png.png" type="image/x-icon">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="logo">
+                <img src="../images/icon/logo png.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="carrinho.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+           <h1 class="text-center p-5" style="color: var(--cor-link);">CATÁLOGO</h1>
+          <section id="lancamentoSection" class="container-fluid p-3 my-1 mx-0">
+            <h2 class="my-4 text-center" style="color: var(--cor-link); letter-spacing: 5px;">LANÇAMENTOS</h2>
+            <!-- flex-wrap serve para não distorcer quando diminuir a tela -->
+            <div id="catalogoDeProdutos" class="container-fluid d-flex justify-content-center gap-4 text-center flex-wrap">
+
+                                        <!-- EA Sports FC 24 - PS5 -->
+
+                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                    <img src="../images/games/fc24.jpeg" class="card-img-top " style="border-radius: 0;" alt="EA Sports FC 24 playstation-5">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:var(--cor-nav)">EA Sports FC 24 - PS5</h5>
+                      <p class="card-text">R$349,99</p>
+                      <h4 class="card-title" style="color: var(--cor-hover)">R$287,91</h4>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fc24Modal">
+                        VER MAIS
+                      </button>
+                
+                    </div>
+                  </div>
+            
+            
+            
+                                                <!-- Spider-Man 2 - PS5 -->
+                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                    <img src="../images/games/Spider-man-2.jpg" class="card-img-top " style="border-radius: 0;" alt="Spider-man-2">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:var(---cor-nav)">Spider-Man 2 - PS5</h5>
+                      <p class="card-text">R$399,99</p>
+                      <h4 class="card-title" style="color: var(--cor-hover)">R$307,91</h4>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#spiderModal">
+                        VER MAIS
+                      </button>
+                
+                    </div>
+                  </div>
+                
+            
+                  
+                                                    <!-- Call of Duty Modern Warfare 3 - PS5 -->
+                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                    <img src="../images/games/COD-MW3-PS5.jpg" class="card-img-top " style="border-radius: 0;" alt="Call of Duty Modern Warfare 3">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:var(--cor-nav)">Call of Duty Modern Warfare 3 - PS5</h5>
+                      <p class="card-text">R$399,99</p>
+                      <h4 class="card-title" style="color: var(--cor-hover)">R$307,91</h4>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#codModal">
+                        VER MAIS
+                      </button>
+                
+                    </div>
+                  </div>
+               
+            
+            
+                                                <!-- Mortal Kombat 1 - PS5 -->
+                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                    <img src="../images/games/Mortal-Kombat-1.jpg" class="card-img-top " style="border-radius: 0;" alt="Mortal Kombat 1">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:var(--cor-nav)">Mortal Kombat 1 - PS5</h5>
+                      <p class="card-text">R$349,99</p>
+                      <h4 class="card-title" style="color: var(--cor-hover)">R$287,99</h4>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mortalModal">
+                        VER MAIS
+                      </button>
+                
+                    </div>
+                  </div>
+                                                <!-- God of War Ragnarok - PS5 -->
+                                                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                                                  <img src="../images/games/god-of-war-ragnarok.png" class="card-img-top " style="border-radius: 0;" alt="God of War Ragnarok">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title" style="color:var(--cor-nav)">God of War Ragnarok - PS5</h5>
+                                                    <p class="card-text">R$299,99</p>
+                                                    <h4 class="card-title" style="color: var(--cor-hover)">R$249,91</h4>
+                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#godModal">
+                                                      VER MAIS
+                                                    </button>
+                                              
+                                                  </div>
+                                                </div>
+                              
+         
+                                                  <!-- Resident Evil 4 - PS5 -->
+                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                    <img src="../images/games/Resident-Evil-4.png" class="card-img-top " style="border-radius: 0;" alt="Resident Evil 4">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:var(--cor-nav)">Resident Evil 4 - PS5</h5>
+                      <p class="card-text">R$349,99</p>
+                      <h4 class="card-title" style="color: var(--cor-hover)">R$282,91</h4>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#residentModal">
+                        VER MAIS
+                      </button>
+                
+                    </div>
+                  </div>
+
+                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                    <img src="../images/games/Alan-Wake-ll.png" class="card-img-top " style="border-radius: 0;" alt="Alan Wake 2">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:var(--cor-nav)">Alan Wake II - PS5</h5>
+                      <p class="card-text">R$270,00</p>
+                      <h4 class="card-title" style="color: var(--cor-hover)">R$220,00</h4>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#alanModal">
+                        VER MAIS
+                      </button>
+                
+                    </div>
+                  </div>
+
+                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                    <img src="../images/games/Dead-Island-2.jpg" class="card-img-top " style="border-radius: 0;" alt="Dead Island 2">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:var(--cor-nav)">Dead Island 2 - PS5</h5>
+                      <p class="card-text">R$249,99</p>
+                      <h4 class="card-title" style="color: var(--cor-hover)">R$189,91</h4>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#deadModal">
+                        VER MAIS
+                      </button>
+                
+                    </div>
+                  </div>
+
+                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                    <img src="../images/games/Street-Figher-6.webp" class="card-img-top " style="border-radius: 0;" alt="Steet Fighter 6">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:var(--cor-nav)">Street Fighter 6 - PS5</h5>
+                      <p class="card-text">R$269,99</p>
+                      <h4 class="card-title" style="color: var(--cor-hover)">R$230,91</h4>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#streetModal">
+                        VER MAIS
+                      </button>
+                
+                    </div>
+                  </div>
+
+                <div class="card p-1" style="width: 20rem; border-radius: 0;">
+                    <img src="../images/games/Assassin's-Creed-Mirage.jpg" class="card-img-top " style="border-radius: 0;" alt="Assassin's Creed Mirage">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:var(--cor-nav)">Assassin's Creed Mirage - PS5</h5>
+                      <p class="card-text">R$269,99</p>
+                      <h4 class="card-title" style="color: var(--cor-hover)">R$207,91</h4>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#creedModal">
+                        VER MAIS
+                      </button>
+                
+                    </div>
+                  </div>
+
+
+                  <!-- AQUI EU IRIA FAZER MAIS SEÇõES DE CATEGORIAS DE JOGOS, PORÉM OS MODAIS NÃO ESTAVAM DANDO CERTO, ENTÃO DEIXAREI PARA CONCLUIR DEPOIS POIS NÃO CONSEGUI RESOLVER :(   -->
+
+
+
+
+
+
+               
+
+
+
+            
+            </div>
+
+        </section>
+
+     
+
+        </main>
+        
+        <footer class="d-flex">
+            <div class="container-fluid d-flex align-items-center justify-content-center">
+              <div class="rights mx-5">
+                <h5>@Todos os direitos reservados a Gustavo S.</h5>
+              </div>
+              <div class="img-redes d-flex gap-3">
+                <a href="#"><img src="../images/icon/facebook-icon-white-png.png" alt=""> Facebook</a>
+                <a href="#"><img src="../images/icon/instagram-icon-512x512-j4mm2gtq.png" alt=""> Instagram</a>
+                <a href="#"><img src="../images/icon/whatsapp-icon-white.png" alt=""> Whatsapp</a>
+              </div>
+            </div>
+            
+          </footer>
+
+
+
+
+    </div>
+    
+
+
+
+                                                <!-- EA Sports FC 24 modal -->
+  <div class="modal" tabindex="-1" id="fc24Modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" style="color:var(--cor-nav)">EA Sports FC 24 - PS5</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img class="w-100" src="../images/games/fc24.jpeg" alt="FC 24">
+            <div class="descricao d-flex flex-column align-items-center">
+                <div class="detalhe d-flex ">
+                    <p>Jogo:</p>
+                    <span> EA Sports FC 24</span>
+                </div>
+                <div class="detalhe d-flex">
+                    <p>Plataforma:</p>
+                    <span> PlayStation 5</span>
+                </div>
+                <div class="detalhe d-flex">
+                    <p>Edição:</p>
+                    <span> Standard</span>
+                </div>
+                <div class="detalhe d-flex">
+                    <p>Produtora:</p>
+                    <span> Electronic Arts</span>
+                </div>
+                <div class="detalhe d-flex">
+                    <p>Tamanho:</p>
+                    <span> 42.51 GB</span>
+                </div>
+                <div class="detalhe d-flex">
+                    <p>Texto:</p>
+                    <span> Português</span>
+                </div>
+                <div class="detalhe d-flex">
+                    <p>Formato:</p>
+                    <span> Digital</span>
+                </div>
+            </div>
+            <h3 style="color: var(--cor-hover)">R$287,91</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                                               <!-- Spider-Man modal-->
+<div class="modal" tabindex="-1" id="spiderModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" style="color:var(--cor-nav)">Spider-Man 2 - PS5 </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img class="w-100" src="../images/games/Spider-man-2.jpg" alt="">
+            <div class="descricao d-flex flex-column align-items-center">
+              <div class="detalhe d-flex ">
+                  <p>Jogo:</p>
+                  <span> Spider-Man 2</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Plataforma:</p>
+                  <span> PlayStation 5</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Edição:</p>
+                  <span> Standard</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Produtora:</p>
+                  <span> Sony</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Tamanho:</p>
+                  <span> 86 GB</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Texto:</p>
+                  <span> Português</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Formato:</p>
+                  <span> Digital</span>
+              </div>
+          </div>
+            <h3 style="color: var(--cor-hover)">R$307,91</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+                                               <!-- COD modal -->
+<div class="modal" tabindex="-1" id="codModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" style="color: var(--cor-nav);">Call Of Duty Modern Warfare 3</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img class="w-100" src="../images/games/COD-MW3-PS5.jpg" alt="">
+            <div class="descricao d-flex flex-column align-items-center my-3">
+              <div class="detalhe d-flex ">
+                  <p>Jogo:</p>
+                  <span> Call of Duty Modern Warfare 3</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Plataforma:</p>
+                  <span> PlayStation 5</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Edição:</p>
+                  <span> Standard</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Produtora:</p>
+                  <span> Activision</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Tamanho:</p>
+                  <span> 89 GB</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Texto:</p>
+                  <span> Português</span>
+              </div>
+              <div class="detalhe d-flex">
+                  <p>Formato:</p>
+                  <span> Digital</span>
+              </div>
+          </div>
+          <h3 style="color: var(--cor-hover)">R$307,91</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+                                               <!-- Mortal Kombat 1 modal -->
+                              <div class="modal" tabindex="-1" id="mortalModal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" style="color: var(--cor-nav);">Mortal Kombat 1</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img class="w-100" src="../images/games/Mortal-Kombat-1.jpg" alt="">
+                                      <div class="descricao d-flex flex-column align-items-center my-3">
+                                        <div class="detalhe d-flex ">
+                                            <p>Jogo:</p>
+                                            <span> Mortal Kombat 1</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Plataforma:</p>
+                                            <span> PlayStation 5</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Edição:</p>
+                                            <span> Standard</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Produtora:</p>
+                                            <span> Warner Bros</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Tamanho:</p>
+                                            <span> 89.01 GB</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Texto:</p>
+                                            <span> Português</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Formato:</p>
+                                            <span> Digital</span>
+                                        </div>
+                                    </div>
+                                    <h3 style="color: var(--cor-hover)">R$287,99</h3>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                                              <!-- God of War Ragnarok modal -->
+                              <div class="modal" tabindex="-1" id="godModal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" style="color: var(--cor-nav);">God of War Ragnarok</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img class="w-100" src="../images/games/god-of-war-ragnarok.png" alt="">
+                                      <div class="descricao d-flex flex-column align-items-center my-3">
+                                        <div class="detalhe d-flex ">
+                                            <p>Jogo:</p>
+                                            <span> God of War Ragnarok</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Plataforma:</p>
+                                            <span> PlayStation 5</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Edição:</p>
+                                            <span> Standard</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Produtora:</p>
+                                            <span> Sony</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Tamanho:</p>
+                                            <span> 111.01 GB</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Texto:</p>
+                                            <span> Português</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Formato:</p>
+                                            <span> Digital</span>
+                                        </div>
+                                    </div>
+                                    <h3 style="color: var(--cor-hover)"> R$249,91</h3>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                                              <!-- Resident Evil 4 modal -->
+                              <div class="modal" tabindex="-1" id="residentModal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" style="color: var(--cor-nav);"> Resident Evil 4</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img class="w-100" src="../images/games/Resident-Evil-4.png" alt="">
+                                      <div class="descricao d-flex flex-column align-items-center my-3">
+                                        <div class="detalhe d-flex ">
+                                            <p>Jogo:</p>
+                                            <span> Resident Evil 4</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Plataforma:</p>
+                                            <span> PlayStation 5</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Edição:</p>
+                                            <span> Standard</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Produtora:</p>
+                                            <span> Capcom</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Tamanho:</p>
+                                            <span> 122.43 GB</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Texto:</p>
+                                            <span> Português</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Formato:</p>
+                                            <span> Digital</span>
+                                        </div>
+                                    </div>
+                                    <h3 style="color: var(--cor-hover)">R$282,91</h3>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                                              <!-- Alan Wake II modal -->
+                              <div class="modal" tabindex="-1" id="alanModal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" style="color: var(--cor-nav);">Alan Wake II</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img class="w-100" src="../images/games/Alan-Wake-ll.png" alt="">
+                                      <div class="descricao d-flex flex-column align-items-center my-3">
+                                        <div class="detalhe d-flex ">
+                                            <p>Jogo:</p>
+                                            <span>Alan Wake II</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Plataforma:</p>
+                                            <span>PlayStation 5</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Edição:</p>
+                                            <span>Standard</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Produtora:</p>
+                                            <span>Remedy Entertainment</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Tamanho:</p>
+                                            <span>90.01 GB</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Texto:</p>
+                                            <span>Português</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Formato:</p>
+                                            <span>Digital</span>
+                                        </div>
+                                    </div>
+                                    <h3 style="color: var(--cor-hover)">R$220,00</h3>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                                              <!-- Dead Island 2 modal -->
+                              <div class="modal" tabindex="-1" id="deadModal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" style="color: var(--cor-nav);">Dead Island 2</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img class="w-100" src="../images/games/Dead-Island-2.jpg" alt="">
+                                      <div class="descricao d-flex flex-column align-items-center my-3">
+                                        <div class="detalhe d-flex ">
+                                            <p>Jogo:</p>
+                                            <span>Dead Island 2</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Plataforma:</p>
+                                            <span>PlayStation 5</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Edição:</p>
+                                            <span>Standard</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Produtora:</p>
+                                            <span>Deep Silver Dambuster Studios</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Tamanho:</p>
+                                            <span>70.01 GB</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Texto:</p>
+                                            <span>Português</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Formato:</p>
+                                            <span>Digital</span>
+                                        </div>
+                                    </div>
+                                    <h3 style="color: var(--cor-hover)">R$189,91</h3>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                                              <!-- Street Fighter 6 modal -->
+                              <div class="modal" tabindex="-1" id="streetModal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" style="color: var(--cor-nav);">Street Fighter 6 </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img class="w-100" src="../images/games/Street-Figher-6.webp" alt="">
+                                      <div class="descricao d-flex flex-column align-items-center my-3">
+                                        <div class="detalhe d-flex ">
+                                            <p>Jogo:</p>
+                                            <span>Street Fighter 6 </span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Plataforma:</p>
+                                            <span>PlayStation 5</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Edição:</p>
+                                            <span>Standard</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Produtora:</p>
+                                            <span>Capcom</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Tamanho:</p>
+                                            <span>25.01 GB</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Texto:</p>
+                                            <span>Português</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Formato:</p>
+                                            <span>Digital</span>
+                                        </div>
+                                    </div>
+                                    <h3 style="color: var(--cor-hover)">R$230,91</h3>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                                              <!-- Assassin's Creed Mirage modal -->
+                              <div class="modal" tabindex="-1" id="creedModal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" style="color: var(--cor-nav);">Assassin's Creed Mirage</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <img class="w-100" src="../images/games/Assassin's-Creed-Mirage.jpg" alt="">
+                                      <div class="descricao d-flex flex-column align-items-center my-3">
+                                        <div class="detalhe d-flex ">
+                                            <p>Jogo:</p>
+                                            <span>Assassin's Creed Mirage</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Plataforma:</p>
+                                            <span>PlayStation 5</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Edição:</p>
+                                            <span>Standard</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Produtora:</p>
+                                            <span>Ubisoft</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Tamanho:</p>
+                                            <span>31.678 GB</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Texto:</p>
+                                            <span>Português</span>
+                                        </div>
+                                        <div class="detalhe d-flex">
+                                            <p>Formato:</p>
+                                            <span>Digital</span>
+                                        </div>
+                                    </div>
+                                    <h3 style="color: var(--cor-hover)">R$207,99</h3>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+                                  </div>
+                                </div>
+                              </div>
+
+                                <!-- ABAIXO É UM MODAL TESTE QUE NÂO DEU CERTO -->
+
+
+                       
+                      
+
+
+
+
+
+                    
+                       
+              
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="/js/jquery-3.7.1.js"></script>
+    <script src="/js/catalogo.js"></script>                        
+
+  </body>
+</html>

@@ -1,0 +1,71 @@
+
+main{
+    width: 100% !important;
+    height: 100vh !important ;
+    background-image: url(../images/background-2.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: space-around !important;
+}
+.container{
+    margin: auto !important;
+    width:50% !important;
+    height: 40% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+    
+  
+    
+}
+form{
+    width: 90% !important;
+    height: 90% !important;
+    background-color: var(--cor-form) !important;
+    padding: 20px !important;
+    box-shadow: 10px 10px 10px #f8515160 !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
+    
+    
+
+}
+form div{
+    margin: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+form div label{
+    margin-bottom: 5px !important;
+}
+form div input{
+    height: 25px !important;
+    border-radius: 5px !important;
+}
+form div input:focus{
+    outline: #f19408 !important;
+    border: 2px solid #f19408 !important;
+}
+form a{
+    color: rgb(247, 247, 247) !important;
+    transition: color 300ms !important;
+}
+form a:hover{
+    color: var(--cor-link) !important;
+    text-decoration: underline !important;
+}
+#new-forgot{
+    width: 90% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5% !important;
+}
+
+
