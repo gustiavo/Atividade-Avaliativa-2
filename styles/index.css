@@ -23,7 +23,7 @@ main img{
 .carousel-caption h5{
     font-size: 30pt;
     font-weight: bold;
-    -webkit-text-stroke: 1px #ffffff ;
+    -webkit-text-stroke: 0.3px #ff0000 ;
     
 }
 .carousel-caption a{

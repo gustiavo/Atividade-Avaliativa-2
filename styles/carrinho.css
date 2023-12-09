@@ -15,10 +15,7 @@ section h5{
     height: 0.2rem;
 }
 
-/* #selectCep{
-    width: 80rem;
-    margin-left: 10rem;
-} */
+
 input{
     width: 12rem;
     height: 2.5rem;
@@ -78,8 +75,7 @@ span, h4 > span{
 #resumo{
     width: 20rem;
     border: 1px solid #c52f2f;
-    padding: 0 10px;
-    
+    padding: 0 10px;    
 }
 #resumo p{
     font-weight: bold;
@@ -87,4 +83,55 @@ span, h4 > span{
 }
 #resumo span{
     font-weight: bold;
+}
+#aVista{
+    background-color: rgba(160, 255, 160, 0.253);
+    padding: 0.5rem;
+    
+}
+#aVista p{ 
+    font-size: 16pt;
+    color: #107010 !important;
+    font-weight: bold;
+
+}
+#aVista span{
+    color: #107010;
+    font-weight: bold;
+}
+
+#resumo a{
+    width: 25rem !important;
+    text-transform: uppercase;
+    padding: 0.5rem !important;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#btnPagamento{
+    background-color: var(--cor-hover) !important;
+    color: var(--cor-fundo);
+    border: 1px solid var(--cor-hover);
+    
+}
+#btnContinuar{
+    border: 1px solid  var(--cor-hover) !important;
+    color: var(--cor-hover)
+}
+.naoTemProduto a{
+        width: 16rem;
+        background-color: var(--cor-hover) !important;
+        color: var(--cor-fundo);
+        border: 1px solid var(--cor-hover);
+        padding: 0.6rem 1rem;
+        border-radius: 10px;
+        
+    
+}
+
+.naoTemProduto a:hover{
+    background-color: var(#ffffff) !important;
+
+}
+.naoTemProduto p:hover{
+    color: white;
 }
