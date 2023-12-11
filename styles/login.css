@@ -9,29 +9,27 @@ main{
     justify-content: center !important;
     align-items: space-around !important;
 }
-.container{
-    margin: auto !important;
-    width:50% !important;
-    height: 40% !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    
-    
-  
-    
+.container {
+    margin: auto;
+    width: 80vw; /* Defina uma largura relativa à largura da tela */
+    max-width: 600px; /* Estabeleça uma largura máxima para o layout */
+    height: 70vh; /* Defina uma altura relativa à altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-form{
-    width: 90% !important;
-    height: 90% !important;
+
+form {
+    width: 90%; /* Ajuste para o formulário ocupar 90% da largura da .container */
+    max-width: 90%; /* Defina um limite máximo para a largura do formulário */
+    height: 90%; /* Ajuste para 90% da altura da .container */
+    /* Outros estilos */
     background-color: var(--cor-form) !important;
     padding: 20px !important;
     box-shadow: 10px 10px 10px #f8515160 !important;
     color: rgb(255, 255, 255) !important;
     border-radius: 10px;
-    
-    
-
+    flex-wrap: wrap;
 }
 form div{
     margin: 20px !important;

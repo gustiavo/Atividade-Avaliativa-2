@@ -113,12 +113,27 @@ span, h4 > span{
     border: 1px solid var(--cor-hover);
     
 }
+#btnPagamento:hover{
+    color: #d1d1d1;
+    border: 1px solid #d1d1d1;
+    transition: 400ms;
+}
 #btnContinuar{
     border: 1px solid  var(--cor-hover) !important;
     color: var(--cor-hover)
 }
-
-.naoTemProduto a{
+#btnContinuar:hover{
+    color: #a14343;
+    border: 1px solid #fc7272;
+    transition: 400ms;
+}
+#naoTemProduto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+}
+#naoTemProduto a{
         width: 16rem;
         background-color: var(--cor-hover) !important;
         color: var(--cor-fundo);
@@ -130,7 +145,7 @@ span, h4 > span{
     
 }
 
-.naoTemProduto a:hover{
+#naoTemProduto a:hover{
     background-color: var(#ffffff) !important;
 
 }

@@ -15,30 +15,29 @@ main{
     justify-content: center;
     align-items: space-around;
 }
-.container{
+.container {
     margin: auto;
-    width:50%;
-    height: 40%;
+    width: 80vw; /* Defina uma largura relativa à largura da tela */
+    max-width: 600px; /* Estabeleça uma largura máxima para o layout */
+    height: 70vh; /* Defina uma altura relativa à altura da tela */
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-  
-    
 }
-form{
-    width: 90%;
-    height: 90%;
-    background-color: var(--cor-fundo-azul);
-    padding: 20px;
-    box-shadow: 10px 10px 10px #f8515160;
-    color: rgb(252, 252, 252);
-    border-radius: 10px;
-    
-    
 
+form {
+    width: 90%; /* Ajuste para o formulário ocupar 90% da largura da .container */
+    max-width: 90%; /* Defina um limite máximo para a largura do formulário */
+    height: 90%; /* Ajuste para 90% da altura da .container */
+    /* Outros estilos */
+    background-color: var(--cor-form) !important;
+    padding: 20px !important;
+    box-shadow: 10px 10px 10px #f8515160 !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
+    flex-wrap: wrap;
 }
+fo
 form div{
     margin: 20px;
     display: flex;
@@ -50,7 +49,7 @@ form div label{
     margin-bottom: 5px;
 }
 form div input{
-    width: 14rem;
+    width: 15rem;
     height: 1.8rem;
     border-radius: 0.4rem;
 }

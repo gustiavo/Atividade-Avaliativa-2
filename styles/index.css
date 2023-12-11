@@ -29,9 +29,13 @@ main img{
 .carousel-caption a{
     font-size: 15pt;
     color: var(--cor-hover);
-    background-color: rgba(221, 221, 221, 0.897);
+    background-color: #dddddde5;
     padding: 0.5rem;
     border-radius: 10px;
+}
+.carousel-caption a:hover{
+    background-color:#b6b6b6e5 ;
+    transition: 400ms;
 }
 
 
@@ -55,6 +59,7 @@ main img{
 #notfySection{
     color: #ffffff;
     background-color: #000000;
+    flex-wrap: wrap;
 }
 
 label{
@@ -73,7 +78,10 @@ input:focus{
     background-color: var(--cor-hover) !important;
     border: none !important;
     
+    
 }
+
+
 #btnEnviar{
     width: 5.5rem;
 }
@@ -85,3 +93,74 @@ input:focus{
 .modal-footer{
     background-color: #ffffff !important;
 }
+
+
+
+/* Tamanhos de tela pequenos */
+@media (max-width: 576px) {
+    .logo img {
+      width: 80px;
+      height: 60px;
+    }
+  
+    main img {
+      width: 40%;
+    }
+  
+    .carousel-caption h5 {
+      font-size: 20pt;
+    }
+  
+    .carousel-caption a {
+      font-size: 12pt;
+    }
+  
+    .card img {
+      height: auto !important;
+    }
+  
+  }
+  
+  /* Tamanhos de tela médios */
+  @media (min-width: 577px) and (max-width: 992px) {
+    .logo img {
+      width: 120px;
+      height: 90px;
+    }
+  
+    main img {
+      width: 30%;
+    }
+  
+    .carousel-caption h5 {
+      font-size: 30pt;
+    }
+  
+    .carousel-caption a {
+      font-size: 15pt;
+    }
+  
+
+  }
+  
+  /* Tamanhos de tela grandes */
+  @media (min-width: 993px) {
+    .logo img {
+      width: 150px;
+      height: 120px;
+    }
+  
+    main img {
+      width: 20%;
+    }
+  
+    .carousel-caption h5 {
+      font-size: 40pt;
+    }
+  
+    .carousel-caption a {
+      font-size: 18pt;
+    }
+  
+   
+  }
