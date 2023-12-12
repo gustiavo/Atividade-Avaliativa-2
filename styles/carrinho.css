@@ -49,7 +49,7 @@ input:focus{
     color: #f76642;
     font-weight: bold;
 }
-#esqueciCep:hover{
+#esqueciCEP:hover{
     color: #f7481c ;
     transition: 400ms;
 }

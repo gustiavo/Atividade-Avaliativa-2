@@ -118,15 +118,7 @@ input:focus{
     .card img {
       height: auto !important;
     }
-    #menuPc{
-      display: none;
-  }
-  #menuIcon{
-      display: block;
-  }
-  #menuMobile{
-      display: block;
-  }
+
   }
   
   /* Tamanhos de tela médios */
@@ -150,12 +142,7 @@ input:focus{
     #menuPc{
       display: none;
   }
-  #menuIcon{
-      display: block;
-  }
-  #menuMobile{
-      display: block;
-  }
+
 
   }
   
@@ -177,14 +164,6 @@ input:focus{
     .carousel-caption a {
       font-size: 18pt;
     }
-    #menuPc{
-      display: none;
-  }
-  #menuIcon{
-      display: block;
-  }
-  #menuMobile{
-      display: block;
-  }
+
    
   }
