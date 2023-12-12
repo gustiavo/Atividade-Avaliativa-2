@@ -40,12 +40,19 @@ input:focus{
     color: var(--cor-fundo);
     font-weight: bold;
 }
+#btnCep:hover{
+    background-color: #f7481c;
+    transition: 400ms;
+}
 
 #esqueciCEP{
     color: #f76642;
     font-weight: bold;
 }
-
+#esqueciCep:hover{
+    color: #f7481c ;
+    transition: 400ms;
+}
 #removerTodosProdutos{
     border: 1px solid #c52f2f;
     border-radius: 5px;
