@@ -67,3 +67,86 @@ form a:hover{
     color: var(--cor-link) !important;
     text-decoration: underline !important;
 }
+
+
+/* Tamanhos de tela pequenos */
+@media (max-width: 576px) {
+    .logo img {
+      width: 80px;
+      height: 60px;
+    }
+  
+    main img {
+      width: 40%;
+    }
+  
+    .carousel-caption h5 {
+      font-size: 20pt;
+    }
+  
+    .carousel-caption a {
+      font-size: 12pt;
+    }
+  
+    .card img {
+      height: auto !important;
+    }
+    #menuPc{
+      display: none;
+  }
+  #menuIcon{
+    display: block;
+  }
+  }
+  
+
+ /* Tamanhos de tela médios */
+ @media (min-width: 577px) and (max-width: 992px) {
+    .logo img {
+      width: 120px;
+      height: 90px;
+    }
+  
+    main img {
+      width: 30%;
+    }
+  
+    .carousel-caption h5 {
+      font-size: 30pt;
+    }
+  
+    .carousel-caption a {
+      font-size: 15pt;
+    }
+    #menuPc{
+      display: none !important;
+  }
+#menuMobile{
+    display: none !important;
+}
+  #menuIcon{
+    display: block !important;
+  }
+  }
+  
+  /* Tamanhos de tela grandes */
+  @media (min-width: 993px) {
+    .logo img {
+      width: 150px;
+      height: 120px;
+    }
+  
+    main img {
+      width: 20%;
+    }
+  
+    .carousel-caption h5 {
+      font-size: 40pt;
+    }
+  
+    .carousel-caption a {
+      font-size: 18pt;
+    }
+  
+   
+  }
